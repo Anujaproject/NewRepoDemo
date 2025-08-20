@@ -24,7 +24,9 @@ public class FirstDemo {
             .body("page", equalTo(2))
             .log().all();
     }
-    /*Hello Demo*/
+    /*Hello Demo
+     * I have teste git app
+     * */
     @Test(priority = 2)
     void createUser() {
         HashMap<String, String> data = new HashMap<>();
